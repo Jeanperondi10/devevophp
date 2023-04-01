@@ -1,18 +1,5 @@
 <?php
 
-    /*
-        Crie uma classe chamada Pedido que possa ser utilizado por uma loja de
-    suprimentos de impressoras para representar uma fatura de um item vendido
-    na loja. Uma fatura deve incluir as seguintes informações como atributos:
-
-    - Número, descrição, quantidade do item e preço unitário de cada item;
-    - Receba os dados da fatura no Construtor da classe, e passe-o para o
-    devido atributo.
-    - Forneça um método set e um método get para cada variável de instância.
-    - Forneça um método que calcula o valor da fatura (isso é, multiplicar a
-    quantidade pelo preço por item) e depois retorna o valor.
-    */
-
     class Pedido{
         private $numero;
         private $descricao;
